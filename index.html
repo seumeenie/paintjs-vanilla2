@@ -9,6 +9,7 @@
 <body>
     <canvas id="jsCanvas" class="canvas"></canvas>
     <div class="controls">
+        <!--canvas brush 설정부분-->
         <div class="controls__range">
             <input 
                 type="range"
@@ -19,10 +20,12 @@
                 step="0.1"
             />
         </div>
+        <!--화면 색 채우기, img파일로 저장하기-->
         <div class="controls__btns">
             <button id="jsMode">Fill</button>
             <button id="jsSave">Save</button>
         </div>
+        <!--팔레트 부분-->
         <div class="controls__colors" id="jsColors">
             <div class="controls__color jsColor" style="background-color:#2c2c2c">
             </div>
